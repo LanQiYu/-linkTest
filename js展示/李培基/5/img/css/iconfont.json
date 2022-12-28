@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4351387",
+      "name": "四叶草",
+      "font_class": "shuyeu-copy",
+      "unicode": "e503",
+      "unicode_decimal": 58627
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>战争背景</title>
+    <link rel="stylesheet" href="css/mouseStyle.css">
+    <link rel="stylesheet" href="./all.css">
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="./css/styleLunBo.css">
+    <link rel="stylesheet" href="./css/page1.css">
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/music.js"></script> -->
+    <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+    <script type="text/javascript" src="js/mouseStyle.js"></script>
+    <script type="text/javascript" src="js/polyfill.min.js"></script>
+</head>
+<body>
+    <div class="content">
+        <!-- 头部导航 -->
+        <ul class="venus-menu">
+            <li class="active">
+                <a href="./index.html"><i class="iconfont icon-xiaochuan" style="color: rgb(255, 255, 255); font-size:30px;"></i>主页</a>
+            </li>
+            <li>
+                <a><i></i>时代背景</a> 
+                <ul>
+                    <li><a href="javascript:scroll('t1')">一战祸根</a></li>
+                    <li><a href="javascript:scroll('2')">国际联盟 </a></li>
+                    <li><a href="javascript:scroll('3')">经济危机</a></li>
+                    <li><a href="javascript:scroll('4')">法西斯独裁</a></li>
+                </ul>
+            </li>
+            <li>
+                <a><i>轴心国</i></a>
+                <ul>
+                    <li><a href="javascript:scroll('t2')">纳粹德国</a></li>
+                    <li><a href="javascript:scroll('6')">日本</a></li>
+                    <li><a href="javascript:scroll('7')">意大利王国</a></li>
+                    <li><a href="javascript:scroll('8')">匈牙利</a></li>
+                    <li><a href="javascript:scroll('9')">保加利亚</a></li>
+                    <li><a href="javascript:scroll('10')">罗马尼亚</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href=""><i></i>战争起因</a>
+                <ul>
+                    <li><a href="javascript:scroll('t3')">日本“大陆政策”</a></li>
+                    <li><a href="javascript:scroll('12')">妥靖政策</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href=""><i></i>同盟国</a>
+                <ul>
+                    <li><a href="javascript:scroll('t4')">澳大利亚</a></li>
+                    <li><a href="javascript:scroll('14')">波兰</a></li>
+                    <li><a href="javascript:scroll('15')">荷兰</a></li>
+                    <li><a href="javascript:scroll('16')">美国</a></li>
+                    <li><a href="javascript:scroll('17')">中国</a></li>
+                    <li><a href="javascript:scroll('18')">苏联</a></li>
+                    <li><a href="javascript:scroll('19')">加拿大</a></li>
+                    <li><a href="javascript:scroll('20')">自由法国</a></li>
+                    <li><a href="javascript:scroll('21')">希腊</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href=""><i>轴心国主要将领</i></a>
+                <ul>
+                    <li><a href="javascript:scroll('t5')">德国</a></li>
+                    <li><a href="javascript:scroll('22')">意大利王国</a></li>
+                    <li><a href="javascript:scroll('23')">日本</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href=""><i>同盟国主要将领</i></a>
+                <ul>
+                    <li><a href="">美国</a></li>
+                    <li><a href="">苏联</a></li>
+                    <li><a href="">中国</a></li>
+                    <li><a href="">英国</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href=""><i></i>各国政党</a>
+                <ul>
+                    <li><a href="">德国</a></li>
+                    <li><a href="">美国</a></li>
+                    <li><a href="">日本</a></li>
+                    <li><a href="">中国</a></li>
+                    <li><a href="">苏联</a></li>
+                    <li><a href="">意大利</a></li>
+                    <li><a href="">英国</a></li>
+                </ul>
+            </li>
+            <li class="search">
+                <form action="http://search." method="get" target="_blank">
+                    <input type="text" name="keyword" class="search" placeholder="人民网搜索" />
+                </form>
+
+            </li>
+        </ul>
+    </div>
+
+    <!-- 轮播动画 -->
+    <div id="main">
+        <div id="hero-slides">
+            <div id="slides-cont">
+                <div class="button" id="next"></div>
+                <div class="button" id="prev"></div>
+                <div id="slides">
+                    <!-- 图1 -->
+                    <div class="slide" style="background-image: url(img/title11.jpg);">
+                        <div class="number">1919年6月28日</div>
+                        <div class="body">
+                            <div class="headline">《凡尔赛和约》的隐患</div><br>
+                            <a href="javascript:scroll('t1')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图4 -->
+                    <div class="slide" style="background-image: url(img/title14.jpg);">
+                        <div class="number">1933年1月</div>
+                        <div class="body">
+                            <div class="headline">希特勒建立法西斯体制</div><br>
+                            <a href="javascript:scroll('t2')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图6 -->
+                    <div class="slide" style="background-image: url(img/title16.jpg);">
+                        <div class="number"> 1931年9月18日</div>
+                        <div class="body">
+                            <div class="headline">日本发动侵华战争</div><br>
+                            <a href="javascript:scroll('t3')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图3 -->
+                    <div class="slide" style="background-image: url(img/title13.jpg);">
+                        <div class="number">1922年10月</div>
+                        <div class="body">
+                            <div class="headline">法西斯专政在意大利王国开始建立</div><br>
+                            <a href="javascript:scroll('t4')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图2 -->
+                    <div class="slide" style="background-image: url(img/title12.jpg);">
+                        <div class="number">1929年至1933年</div>
+                        <div class="body">
+                            <div class="headline">资本主义世界经济大危机</div><br>
+                            <a >
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- 图5 -->
+                    <div class="slide" style="background-image: url(img/title15px.jpg);">
+                        <div class="number">1931年九一八事变起</div>
+                        <div class="body">
+                            <div class="headline">日本走上法西斯化道路</div><br>
+                            <a href="javascript:scroll('t5')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- 图7 -->
+                    <div class="slide" style="background-image: url(img/title17.jpg);">
+                        <div class="number">1935年</div>
+                        <div class="body">
+                            <div class="headline">意大利入侵埃塞俄比亚</div><br>
+                            <a href="">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                     <!-- 图8
+                    <div class="slide" style="background-image: url(img/title18.jpg);">
+                        <div class="number">1978年12月—1999年12月</div>
+                        <div class="body">
+                            <div class="location">那是一个春天，有一位老人，在中国<br>的南海边画了一个圈……</div>
+                            <div class="headline">改革开放</div><br>
+                            <a href="">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                     图9
+                    <div class="slide" style="background-image: url(img/title19.png);">
+                        <div class="number">十年动荡时期<br>2012年11月至今</div>
+                        <div class="body">
+                            <div class="location">不忘初心，牢记使命</div>
+                            <div class="headline">中国特色社会主义现代化</div><br>
+                            <a href="">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>-->
+                </div>
+                <div id="next-catch"></div>
+                <div id="prev-catch"></div>
+            </div>
+        </div>
+    </div>
+
+<!-- 时间表 -->
+    <div class="about2">
+        <div class="wrapper">
+            <div class="tit" id="t1">
+                <h6 class="f12">1919年<br>1922年</h6>
+                <h5 class="f24">“凡尔赛—华盛顿体系”建立</h5>   
+            </div>
+            <ul class="clearfix-time">
+                <li id="1">
+                    <a>
+                        <h4 class="f30">1918年11月至<br>1919年6月28日</h4>
+                    </a>
+                    <span class="span">在巴黎的凡尔赛宫签署条约</span>
+                    <p class="14">并于1920年1月10日正式生效</p>
+                </li>
+                <li id="2">
+                    <a>
+                        <h4 class="f30">1924年<br>到1930年间</h4>
+                    </a>
+                    <span class="span">德国被迫发行大量外国债券</span>
+                    <p class="14">筹集巨额赔款</p>
+                </li>
+                <li id="3">
+                    <a>
+                        <h4 class="f30">1929年10月<br>至1939年</h4>
+                    </a>
+                    <span class="span">发生全球金融危机</span>
+                    <p class="14">德国于1931年暂停了每年偿付的赔款</p>
+                </li>
+                <li id="4">
+                    <a>
+                        <h4 class="f30">1933年<br></h4>
+                    </a>
+                    <span class="span">阿道夫·希特勒上任德意志元首</span>
+                    <p class="14">上台后，德国拒绝恢复偿还赔款</p>
+                </li>
+            </ul>
+            <div class="future">纳粹德国</div>
+            <div class="tit" id="t2">
+                <h6 class="f12">1922年—1938年</h6>
+                <h5 class="f24">法西斯政权建立时期</h5>
+            </div>
+            <ul class="clearfix-time">
+                <li id="5">
+                    <a>
+                        <h4 class="f30">
+                            1923年 <br>
+                        </h4>
+                    </a>
+                    <span class="span">希特勒发动了法西斯政变</span>
+                    <p class="14">但最终失败</p>
+                </li>
+                <li id="6">
+                    <a
+                        href="#">
+                        <h4 class="f30">
+                            1924年 <br>
+                        </h4>
+                    </a>
+                    <span class="span">希特勒假释出狱</span>
+                    <p class="14">着手与重建纳粹党</p>
+                </li>
+                <li id="7">
+                    <a>
+                        <h4 class="f30">
+                            1929年 <br>
+                        </h4>
+                    </a>
+                    <span class="span">世界经济危机爆发 </span>
+                    <p class="14">希特勒抓住机会煽动民众拉拢选票</p>
+                </li>
+                <li id="8">
+                    <a>
+                        <h4 class="f30">
+                            1934年 <br />
+                        </h4>
+                    </a>
+                    <span class="span">希特勒就任德国元首</span>
+                    <p class="14">开始了他的种族复兴计划。</p>
+                </li>
+                <li id="9">
+                    <a>
+                        <h4 class="f30">
+                            1933年 <br> 4月
+                        </h4>
+                    </a>
+                    <span class="span">为了取缔德国共产党</span>
+                    <p class="14">纵火焚烧国会大厦污蔑共产党所为随及解散共产党</p>
+                </li>
+                <li id="10">
+                    <a>
+                        <h4 class="f30">
+                            1938年 <br>
+                        </h4>
+                    </a>
+                    <span class="span">德国占领奥地利和捷克斯洛伐克</span>
+                    <p class="14">自此德国法西斯专政基本完成建立</p>
+                </li>
+            </ul>
+
+            <div class="tit" id="t3">
+                <h6 class="f12">
+                    1931年9月开始</h6>
+                <h5 class="f24">日军侵华战争</h5>
+            </div>
+            <ul class="clearfix-time">
+                <li id="11">
+                    <a>
+                        <h4 class="f30">
+                            1931年 <br> 9月18日
+                        </h4>
+                    </a>
+                    <span class="span">日军进攻沈阳，九一八事变爆发</span>
+                    <p class="14">日本侵略军迅速占领中国东北，并成立伪满洲国</p>
+                </li>
+                <li id="12">
+                    <a>
+                        <h4 class="f30">
+                            1932年 <br> 1月28日
+                        </h4>
+                    </a>
+                    <span class="span">日军进攻上海，淞沪抗战爆发</span>
+                    <p class="14">中日军队第一次全面对抗和较量</p>
+                </li>
+                <li id="13">
+                    <a>
+                        <h4 class="f30">
+                            1937年<br />7月7日
+                        </h4>
+                    </a>
+                    <span class="span">日军在北平附近挑起卢沟桥事变</span>
+                    <p class="14">中日战争全面爆发</p>
+                </li>
+            </ul>
+            <div class="future">土地革命</div>
+
+            <!-- <div class="tit" id="t4">
+                <h6 class="f12">1931年<br />9月—1945年8月</h6>
+                <h5 class="f24">全民族抗日战争时期</h5>
+            </div>
+            <ul class="clearfix-time">
+                <li id="14">
+                    <a>
+                        <h4 class="f30">
+                            1931年9月18日
+                        </h4>
+                    </a>
+                    <span class="span">九一八事变后的国内政局和革命运动的挫折</span>
+                    <p class="14">风雨飘摇百姓呻，狼烟四起国将沦。</p>
+                </li>
+                <li id="15">
+                    <a>
+                        <h4 class="f30">
+                            1934年10月5月 <br> 至1936年10月22日
+                        </h4>
+                    </a>
+                    <span class="span">遵义会议和红军长征的胜利</span>
+                    <p class="14">红军不怕远征难，万水千山只等闲。</p>
+                </li>
+                <li id="16">
+                    <a>
+                        <h4 class="f30">
+                            1936年12月12日
+                        </h4>
+                    </a>
+                    <span class="span">为建立抗日民族统一战线而斗争</span>
+                    <p class="14">中华志士揭竿起，纲领两条除旧尘。</p>
+                </li>
+                <li id="17">
+                    <a>
+                        <h4 class="f30">
+                            1937年 <br> 8月
+                        </h4>
+                    </a>
+                    <span class="span">争取实现全面抗战路线</span>
+                    <p class="14">远瞩前瞻决策精，高低纲领似灯明。</p>
+                </li>
+                <li id="18">
+                    <a>
+                        <h4 class="f30">
+                            1940年 <br> 8月20日至12月15日
+                        </h4>
+                    </a>
+                    <span class="span">八路军百团大战</span>
+                    <p class="14">欲转乾坤吹号角，红旗漫卷九州天。</p>
+                </li>
+                <li id="19">
+                    <a>
+                        <h4 class="f30">
+                            1941年至1942年
+                        </h4>
+                    </a>
+                    <span class="span">巩固抗日民主阵地</span>
+                    <p class="14">镰锤杀敌豪情迈，将士挥戈壮志酬。</p>
+                </li>
+                <li id="20">
+                    <a>
+                        <h4 class="f30">
+                            1943年5月
+                        </h4>
+                    </a>
+                    <span class="span">新民主主义理论体系的形成</span>
+                    <p class="14">滚滚乌云罩九洲，工农浴血汇洪流。</p>
+                </li>
+                <li id="21">
+                    <a>
+                        <h4 class="f30">
+                            1945年 <br> 4月23日至6月11日
+                        </h4>
+                    </a>
+                    <span class="span">中国共产党第七次全国代表大会</span>
+                    <p class="14">待看东方红日出，镰锤一把换新天。</p>
+                </li>
+                <li id="22">
+                    <a>
+                        <h4 class="f30">
+                            1945年 <br> 8月9日至8月15日
+                        </h4>
+                    </a>
+                    <span class="span">人民抗战的最后胜利</span>
+                    <p class="14">觉醒雄狮威立起，岂容贼盗死灰燃。</p>
+                </li>
+            </ul>
+            <div class="future">民族抗日</div>
+        </div>
+    </div> -->
+
+    <!-- 底部 -->
+    <footer class="act">
+        <svg viewBox="0 0 120 28">
+         <defs> 
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="
+                   1 0 0 0 0  
+                   0 1 0 0 0  
+                   0 0 1 0 0  
+                   0 0 0 13 -9" result="goo" />
+              <xfeBlend in="SourceGraphic" in2="goo" />
+              </filter>
+             <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+          </defs> 
+        
+           <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+           <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+         
+         
+          <g class="gooeff" filter="url(#goo)">
+          <circle class="drop drop1" cx="20" cy="2" r="8.8"  />
+          <circle class="drop drop2" cx="25" cy="2.5" r="7.5"  />
+          <circle class="drop drop3" cx="16" cy="2.8" r="9.2"  />
+          <circle class="drop drop4" cx="18" cy="2" r="8.8"  />
+          <circle class="drop drop5" cx="22" cy="2.5" r="7.5"  />
+          <circle class="drop drop6" cx="26" cy="2.8" r="9.2"  />
+          <circle class="drop drop1" cx="5" cy="4.4" r="8.8"  />
+          <circle class="drop drop2" cx="5" cy="4.1" r="7.5"  />
+          <circle class="drop drop3" cx="8" cy="3.8" r="9.2"  />
+          <circle class="drop drop4" cx="3" cy="4.4" r="8.8"  />
+          <circle class="drop drop5" cx="7" cy="4.1" r="7.5"  />
+          <circle class="drop drop6" cx="10" cy="4.3" r="9.2"  />
+          
+          <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"  />
+          <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"  />
+          <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"  />
+            <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"  />
+          <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"  />
+          <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"  />
+          <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+         </g>  
+            <!-- g mask="url(#xxx)">
+            <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </g>
+          </g -->
+        
+        </svg>
+        
+        </footer>
+    <!-- 樱花 -->
+    <div style="width: 100%;height: 100%; display: none;">花瓣飘落</div>
+    <script src="./js/snowfall.jquery.js"></script>
+    <script type="text/javascript">
+        $(document).snowfall('clear');
+        $(document).snowfall({
+            image:"https://pic.kuaizhan.com/g3/c3/9b/3f72-60cf-4d91-8500-4f193c67c59205",
+            flakeount:5,
+            minSize:15,
+            maxSize:25,
+        })
+    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+    <!-- 小火箭-->
+    <div class="actGotop"><a href="javascript: ;" title="飞回顶部">
+    </a></div>
+<script>
+    var height = document.documentElement.clientHeight;
+    var width = document.documentElement.clientWidth;
+    $(function () {
+        //在页面超出1000px的时候（高），让小火箭显示，小于1000px 隐藏
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 950) {
+                $(".actGotop").stop().fadeIn(500);
+                $(".act").stop().fadeIn();
+            } else {
+                $(".actGotop").stop().fadeOut(500);
+                $(".act").stop().fadeOut();
+            }
+        })
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= height) {
+                $(".act").stop().fadeIn();
+            } else {
+                $(".act").stop().fadeOut();
+            }
+        })
+    });
+    //在外部注册
+    $(".actGotop").click(function () {
+        $("html,body").stop().animate({
+            scrollTop: 0
+        }, 1000)
+    })
+</script>
+
+</script>
+<script type="text/javascript">
+    function scroll(id) {
+        console.log(id);
+        $("html,body").animate({
+            scrollTop: $("#" + id).offset().top
+        }, 1000);
+    }
+</script>
+
+<!-- 轮播 -->
+<script>
+    let hero = document.getElementById('hero-slides');
+    let menu = document.getElementById('menu');
+    let slides = document.getElementById('slides');
+    console.log(slides);
+    let next = ['next', 'next-catch'].map(n => document.getElementById(n));
+    let prev = ['prev', 'prev-catch'].map(n => document.getElementById(n));
+
+    let slidesChildren = slides.children;
+    let slidesCount = slides.children.length;
+    let currentlyDemoing = false;
+    let currentPage = 0;
+    let slidesPerPage = () => window.innerWidth > 1700 ? 4 : window.innerWidth > 1200 ? 3 : 2;
+    let maxPageCount = () => slidesCount / slidesPerPage() - 1;
+
+    function goToPage(pageNumber = 0) {
+        currentPage = Math.min(maxPageCount(), Math.max(0, pageNumber));
+        console.log(currentPage)
+        hero.style.setProperty('--page', currentPage)
+    }
+    function sleep(time) {
+        return new Promise(res => setTimeout(res, time))
+    }
+    function hoverSlide(index) {
+        index in slidesChildren && slidesChildren[index].classList.add('hover')
+    }
+    function unhoverSlide(index) {
+        index in slidesChildren && slidesChildren[index].classList.add('hover')
+    }
+    async function demo() {
+        if (currentlyDemoing) {
+            return;
+        }
+        currentlyDemoing = true;
+        if (currentPage !== 0) {
+            goToPage(0);
+            await sleep(800);
+        }
+        let slides = slidesPerPage();
+        let pageSeq_ = {
+            2: [1, 2, 1],
+            3: [1, 2, 1 / 3],
+            4: [1, 1, 0],
+        }
+        let pageSeq = pageSeq_[slides] || pageSeq_[4];
+        let slideSeq_ = {
+            2: [2, 4, 3],
+            3: [3, 6, 2],
+            4: [3, 6, 2]
+        }
+        let slideSeq = slideSeq_[slides] || slideSeq_[2];
+        await sleep(300);
+        goToPage(pageSeq[0]);
+        await sleep(500);
+        hoverSlide(slideSeq[0]);
+        await sleep(1200);
+        goToPage(pageSeq[1]);
+        unhoverSlide(slideSeq[0]);
+
+        await sleep(500);
+        hoverSlide(slideSeq[1]);
+        await sleep(1200);
+        goToPage(pageSeq[2]);
+        unhoverSlide(slideSeq[1]);
+        await sleep(300);
+        hoverSlide(slideSeq[2]);
+        await sleep(1600);
+        goToPage(0);
+        unhoverSlide(slideSeq[2]);
+        currentlyDemoing = false;
+    }
+    next.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage + 1)));
+    prev.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage - 1)));
+    sleep(100).then(demo);
+    console.log(goToPage);
+</script>
+</html>

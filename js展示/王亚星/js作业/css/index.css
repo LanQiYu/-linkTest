@@ -1,0 +1,72 @@
+/* 框架 */
+.mkeBody {
+    background: #d8d8d8;
+}
+/* 头部 */
+.mkeHeadBox {
+    padding: 70px 10px;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    box-shadow: inset 0 -2px 3px #808080;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+.mkeContentBox {
+    background: rgb(233, 233, 233);
+    padding: 50px 0 20px 0;
+    /* background: #ffffff url(../images/bg.jpg) repeat top left; */
+}
+.mkeContentBox::after {
+    height: 0;
+    clear: both;
+}
+.codrops-demos a,
+a.codrops-demo {
+    display: inline-block;
+    line-height: 18px;
+    font-weight: 800;
+}
+@media screen and (max-width:767px) {
+    p.codrops-demos {
+        position: relative;
+        left: auto;
+    }
+}
+
+
+
+
+
+
+/* css */
+body,div,dl,h1,h2,h3,h4,form,p,input,th {
+    padding: 0;
+    margin: 0;
+}
+img {
+    border: 0;
+}
+ol,ul {
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* 标签zai */
+a:hover {
+    color: rgb(255, 255, 255);
+}
+body {
+   overflow: hidden;
+}

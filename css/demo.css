@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker");
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+.boFang {
+    min-height:100%;
+    font-size:18px;
+    font-family:Roboto,cursive;
+}
+.boFang .container{
+    max-width:1200px;
+    padding:0 20px;
+    margin:0 auto
+}
+.boFang .demo-section{
+    padding:40px 0
+}
+.demo-section__heading{
+    text-align:center;
+    color:#00955e
+}
+.demo-list{
+    list-style:none;
+    padding:0;
+    margin:22px 0;
+    text-align:center;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-pack:distribute;
+    justify-content:space-around
+}
+.demo-list__item{
+    width:49%
+}
+.demo-list__link{
+    display:block;
+    padding:10px 20px;
+    text-decoration:none;
+    color:#fff;
+    background:#00955e;
+    border-radius:5px;
+    font-size:13px
+}

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜀国</title>
+
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="mouseStyle.css">
+    <link rel="stylesheet" href="time.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/page1.css">
+
+    <link rel="stylesheet" href="css/style666.css">
+
+    <script src="js/mouseStyle.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/music.js"></script> -->
+    <script src="js/polyfill.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="content">
+        <!-- 头部导航栏 -->
+        <ul class="venus-menu">
+            <li class="active">
+                <a href="index.html"><i class="iconfont icon-xiaochuan" style="color: red;font-size: 30px;"></i>首页</a>
+            </li>
+            <li>
+                <a><i></i>武将</a>
+                <div class="indicator">+</div>
+                <ul>
+                    <li><a href="javascript:scroll('1')">关羽</a></li>
+                    <li><a href="javascript:scroll('2')">张飞</a></li>
+                    <li><a href="javascript:scroll('3')">赵云</a></li>
+                    <li><a href="javascript:scroll('4')">黄忠</a></li>
+                    <li><a href="javascript:scroll('5')">马超</a></li>
+                    <li><a href="javascript:scroll('6')">魏延</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href=""><i></i>军师</a>
+                <div class="indicator">+</div>
+                <ul>
+                    <li><a href="javascript:scroll('t2')">诸葛亮</a></li>
+                    <li><a href="javascript:scroll('6')">法正</a></li>
+                    <li><a href="javascript:scroll('8')">庞统</a></li>
+                    <li><a href="javascript:scroll('8')">徐庶</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href=""><i></i>重大战役</a>
+                <div class="indicator">+</div>
+                <ul>
+                    <li><a href="javascript:scroll('t3')">新野之战</a></li>
+                    <li><a href="javascript:scroll('11')">长坂之战</a></li>
+                    <li><a href="javascript:scroll('12')">赤壁之战</a></li>
+                    <li><a href="javascript:scroll('12')">成都之战</a></li>
+                    <li><a href="javascript:scroll('12')">定军山之战</a></li>
+                    <li><a href="javascript:scroll('12')">樊城之战</a></li>
+                    <li><a href="javascript:scroll('12')">夷陵之战</a></li>
+                </ul>
+            </li>
+            <li class="search">
+                <form action="" method="get" target="_blank">
+                    <input type="text" name="keyworf" id="search" placeholder="百度搜索">
+                </form>
+            </li>
+        </ul>
+    </div>
+
+
+    <div style="width: 100%; height: 100%; display: none;">花瓣飘落</div>
+    <script src="js/snowfall.jquery.js"></script>
+    <script>
+        $(document).snowfall('clear');
+        $(document).snowfall({
+            image: "https://pic.kuaizhan.com/g3/c3/9b/3f72-60cf-4d91-8500-4f193c67c59205", flakeCount: 10,
+            minSize: 15,
+            maxSize: 25
+        })
+    </script>
+    <!-- 轮播 -->
+
+    <div id="main">
+        <div id="hero-slides">
+            <div id="slides-cont">
+                <div class="button" id="next"></div>
+                <div class="button" id="prev"></div>
+                <div id="slides">
+                    <div class="slide" style="background-image: url(img/xinye.jpg);">
+                        <div class="number">207年</div>
+                        <div class="body">
+                            <div class="location">曹仁与刘备交战，徐庶破八门金锁阵，关羽占樊城大败曹仁</div>
+                            <div class="headline">新野<br>之战</div><br>
+                            <a href="javascript:scroll('t1')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(img/changban.jpg);">
+                        <div class="number">208年</div>
+                        <div class="body">
+                            <div class="location">刘备被曹操所败，赵云单骑救主</div>
+                            <div class="headline">长坂之战</div><br>
+                            <a href="javascript:scroll('t2')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(img/chibi.jpg);">
+                        <div class="number">208年</div>
+                        <div class="body">
+                            <div class="location">孙刘联合与曹操百万大军战于赤壁，大败曹军</div>
+                            <div class="headline">赤壁<br>之战</div><br>
+                            <a href="javascript:scroll('t3')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(img/chendu.jpg);">
+                        <div class="number">215年</div>
+                        <div class="body">
+                            <div class="location">刘备采取庞统之计，进军成都，败刘璋，夺得益州，庞统受流矢卒于此役</div>
+                            <div class="headline">成都<br>之战</div><br>
+                            <a href="javascript:scroll('t4')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(img/dingjunshan.jpg);">
+                        <div class="number">219年</div>
+                        <div class="body">
+                            <div class="location">黄忠破张郃与夏侯渊战于定军山，用法正之计，斩夏侯渊，大胜</div>
+                            <div class="headline">定军山<br>之战</div><br>
+                            <a href="javascript:scroll('t5')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(img/fancheng.jpg);">
+                        <div class="number">
+                            219年</div>
+                        <div class="body">
+                            <div class="location">关羽水淹七军，斩庞德，降于禁围曹仁于樊城，威震华夏</div>
+                            <div class="headline">樊城<br>之战</div><br>
+                            <a href="">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url(img/yiling.jpg);">
+                        <div class="number">
+                            222年</div>
+                        <div class="body">
+                            <div class="location">刘备为关羽复仇，尽倾国之兵伐吴，大败</div>
+                            <div class="headline">夷陵<br>之战</div><br>
+                            <a href="">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="next-catch"></div>
+                    <div id="prev-catch"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 时间线 -->
+    <div class="about2">
+        <div class="wrapper">
+
+
+            <div class="tit" id="t1">
+                <h6 class="f12">00</h6>
+                <h5 class="f24">武将</h5>
+            </div>
+            <ul class="clearfix-time">
+                <li id="1">
+                    <a>
+                        <h4 class="f30">
+                            关羽<br>162-219年
+                        </h4>
+                    </a>
+                    <span class="span">字云长</span>
+                    <p class="14">身长八尺</p>
+                </li>
+                <li>
+                    <a>
+                        <h4 class="f30">
+                            五虎将之首<br>与刘备、张飞义结金兰
+                        </h4>
+                    </a>
+                    <span class="span">武艺超群人称“万人敌”</span>
+                    <p class="14">又称美髯公</p>
+                </li>
+                <li id="2">
+                    <a>
+                        <h4 class="f30">
+                            张飞<br />167-221年
+                        </h4>
+                    </a>
+                    <span class="span">字翼德</span>
+                    <p class="14">嗜酒多误事</p>
+                </li>
+                <li>
+                    <a>
+                        <h4 class="f30">
+                            五虎将之一<br>与刘备、关羽义结金兰
+                        </h4>
+                    </a>
+                    <span class="span">人称“万人敌”</span>
+                    <p class="14">长坂坡，一声吼，吓退曹军</p>
+                </li>
+            </ul>
+
+            <div class="tit" id="t2">
+                <h6 class="f12"></h6>
+                <h5 class="f24"></h5>
+            </div>
+            <ul class="clearfix-time">
+                <li id="3">
+                    <a>
+                        <h4 class="f30">
+                            赵云<br>？-228年
+                        </h4>
+                    </a>
+                    <span class="span">字子龙</span>
+                    <p class="14">曾出仕袁绍、公孙瓒后仰慕刘备遂追随</p>
+                </li>
+                <li>
+                    <a">
+                        <h4 class="f30">
+                            五虎将之一<br>长坂坡，单骑救主
+                        </h4>
+                    </a>
+                    <span class="span">刘备言曰</span>
+                    <p class="14">子龙一身胆也</p>
+                </li>
+                <li id="4">
+                    <a>
+                        <h4 class="f30">
+                            黄忠<br />148-222年
+                        </h4>
+                    </a>
+                    <span class="span">字汉生蜀将</span>
+                    <p class="14">曾仕刘表、韩玄，后追随刘备</p>
+                </li>
+                <li>
+                    <a">
+                        <h4 class="f30">
+                            五虎将之一<br>擅长弓箭百发百中
+                        </h4>
+                    </a>
+                    <span class="span">定军山斩夏侯渊</span>
+                    <p class="14"></p>
+                </li>
+                <li id="5">
+                    <a>
+                        <h4 class="f30">
+                            马超 <br> 176-226年
+                        </h4>
+                    </a>
+                    <span class="span">字孟起蜀将</span>
+                    <p class="14">马腾长子</p>
+                </li>
+                <li id="5">
+                    <a>
+                        <h4 class="f30">
+                            五虎将之一 <br> 人称锦马超
+                        </h4>
+                    </a>
+                    <span class="span">前多与曹操大战，多败，后追随刘备，</span>
+                    <p class="14"></p>
+                </li>
+                <li id="6">
+                    <a>
+                        <h4 class="f30">
+                            魏延 <br> ？-234年
+                        </h4>
+                    </a>
+                    <span class="span">字文长蜀将</span>
+                    <p class="14">原刘表部下，后随刘备军</p>
+                </li>
+                <li id="6">
+                    <a>
+                        <h4 class="f30">
+                            颇得刘备重用<br>五虎将之次
+                        </h4>
+                    </a>
+                    <span class="span"></span>
+                    <p class="14">后北伐，为主力</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <footer class="act">
+        <svg viewBox="0 0 120 28">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+					<feColorMatrix in="blur" mode="matrix" values="
+       1 0 0 0 0  
+       0 1 0 0 0  
+       0 0 1 0 0  
+       0 0 0 13 -9" result="goo" />
+					<xfeBlend in="SourceGraphic" in2="goo" />
+				</filter>
+				<path id="wave"
+					d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+			</defs>
+			<use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+			<use id="wave2" class="wave" xlink:href="#wave" x="0" y="0">
+			</use>
+			<g class="gooeff" filter="url(#goo)">
+				<circle class="drop drop1" cx="20" cy="2" r="8.8" />
+				<circle class="drop drop2" cx="25" cy="2.5" r="7.5" />
+				<circle class="drop drop3" cx="16" cy="2.8" r="9.2" />
+				<circle class="drop drop4" cx="18" cy="2" r="8.8" />
+				<circle class="drop drop5" cx="22" cy="2.5" r="7.5" />
+				<circle class="drop drop6" cx="26" cy="2.8" r="9.2" />
+				<circle class="drop drop1" cx="5" cy="4.4" r="8.8" />
+				<circle class="drop drop2" cx="5" cy="4.1" r="7.5" />
+				<circle class="drop drop3" cx="8" cy="3.8" r="9.2" />
+				<circle class="drop drop4" cx="3" cy="4.4" r="8.8" />
+				<circle class="drop drop5" cx="7" cy="4.1" r="7.5" />
+				<circle class="drop drop6" cx="10" cy="4.3" r="9.2" />
+				<circle class="drop drop1" cx="1.2" cy="5.4" r="8.8" />
+				<circle class="drop drop2" cx="5.2" cy="5.1" r="7.5" />
+				<circle class="drop drop3" cx="10.2" cy="5.3" r="9.2" />
+				<circle class="drop drop4" cx="3.2" cy="5.4" r="8.8" />
+				<circle class="drop drop5" cx="14.2" cy="5.1" r="7.5" />
+				<circle class="drop drop6" cx="17.2" cy="4.8" r="9.2" />
+				<use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+			</g>
+		</svg>
+    </footer>
+
+
+
+
+
+    
+
+
+
+
+</body>
+
+<div class="actGotop"><a href="javascript:;" title="飞回顶部">
+    </a></div>
+<script>
+    var height = document.documentElement.clientHeight;
+
+    var width = document.documentElement.clientWidth;
+    $(function () {
+        //在页面超出1000px的时候（高），让小火箭显示，小于1000px 隐藏
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 950) {
+                $(".actGotop").stop().fadeIn(500);
+                $(".act").stop().fadeIn();
+            } else {
+                $(".actGotop").stop().fadeOut(500);
+                $(".act").stop().fadeOut();
+            }
+        })
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= height) {
+                $(".act").stop().fadeIn();
+            } else {
+                $(".act").stop().fadeOut();
+            }
+        })
+    });
+    //在外部注册
+    $(".actGotop").click(function () {
+        $("html,body").stop().animate({
+            scrollTop: 0
+        }, 1000)
+    })
+</script>
+
+
+<script type="text/javascript">
+    function scroll(id) {
+        console.log(id);
+        $("html,body").animate({
+            scrollTop: $("#" + id).offset().top
+        }, 1000);
+    }
+</script>
+<script>
+    let hero = document.getElementById('hero-slides');
+    let menu = document.getElementById('menu');
+    let slides = document.getElementById('slides');
+    console.log(slides);
+    let next = ['next', 'next-catch'].map(n => document.getElementById(n));
+    let prev = ['prev', 'prev-catch'].map(n => document.getElementById(n));
+
+    let slidesChildren = slides.children;
+    let slidesCount = slides.children.length;
+    let currentlyDemoing = false;
+    let currentPage = 0;
+    let slidesPerPage = () => window.innerWidth > 1700 ? 4 : window.innerWidth > 1200 ? 3 : 2;
+    let maxPageCount = () => slidesCount / slidesPerPage() - 1;
+
+    function goToPage(pageNumber = 0) {
+        currentPage = Math.min(maxPageCount(), Math.max(0, pageNumber));
+        console.log(currentPage)
+        hero.style.setProperty('--page', currentPage)
+    }
+    function sleep(time) {
+        return new Promise(res => setTimeout(res, time))
+    }
+    function hoverSlide(index) {
+        index in slidesChildren && slidesChildren[index].classList.add('hover')
+    }
+    function unhoverSlide(index) {
+        index in slidesChildren && slidesChildren[index].classList.add('hover')
+    }
+    async function demo() {
+        if (currentlyDemoing) {
+            return;
+        }
+        currentlyDemoing = true;
+        if (currentPage !== 0) {
+            goToPage(0);
+            await sleep(800);
+        }
+        let slides = slidesPerPage();
+        let pageSeq_ = {
+            2: [1, 2, 1],
+            3: [1, 2, 1 / 3],
+            4: [1, 1, 0],
+        }
+        let pageSeq = pageSeq_[slides] || pageSeq_[4];
+        let slideSeq_ = {
+            2: [2, 4, 3],
+            3: [3, 6, 2],
+            4: [3, 6, 2]
+        }
+        let slideSeq = slideSeq_[slides] || slideSeq_[2];
+        await sleep(300);
+        goToPage(pageSeq[0]);
+        await sleep(500);
+        hoverSlide(slideSeq[0]);
+        await sleep(1200);
+        goToPage(pageSeq[1]);
+        unhoverSlide(slideSeq[0]);
+
+        await sleep(500);
+        hoverSlide(slideSeq[1]);
+        await sleep(1200);
+        goToPage(pageSeq[2]);
+        unhoverSlide(slideSeq[1]);
+        await sleep(300);
+        hoverSlide(slideSeq[2]);
+        await sleep(1600);
+        goToPage(0);
+        unhoverSlide(slideSeq[2]);
+        currentlyDemoing = false;
+    }
+    next.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage + 1)));
+    prev.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage - 1)));
+    sleep(100).then(demo);
+    console.log(goToPage);
+</script>
+
+</html>

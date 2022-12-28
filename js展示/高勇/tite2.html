@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>筑梦航天</title>
+    <link rel="stylesheet" href="css/mouseStyle.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/time.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="./css/styleLunBo.css">
+    <link rel="stylesheet" href="./css/page1.css">
+    
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/music.js"></script> -->
+    <script type="text/javascript" src="./js/modernizr.custom.53451.js"></script>
+    <script type="text/javascript" src="./js/mouseStyle.js"></script>
+    <script type="text/javascript" src="./js/polyfill.min.js"></script>
+</head>
+<body>
+    <div class="content">
+        <!-- 头部导航 -->
+        <ul class="venus-menu">
+            <li class="active">
+                <a href="./index.html"><i class="iconfont icon-xiaochuan" style="color: red; font-size:30px;"></i>主页</a>
+            </li>
+            <li>
+                <a href="javascript:scroll('t1')"><i></i>宇航产品</a> 
+                <ul>
+                    <li><a href="javascript:scroll('1')">中国航天火箭</a></li>
+                    <li><a href="javascript:scroll('2')">中国航天卫星 </a></li>
+                    <li><a href="javascript:scroll('3')">中国航天航天器</a></li>
+                    <li><a href="javascript:scroll('4')">中国航天飞船</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:scroll('t2')"><i></i>成就未来</a>
+                <ul>
+                    <li><a href="javascript:scroll('5')">探月与深空探测</a></li>
+                    <li><a href="javascript:scroll('6')">高分辨率对地观测系统</a></li>
+                    <li><a href="javascript:scroll('7')">中国载人航天工程</a></li>
+                    <li><a href="javascript:scroll('8')">北斗导航系统</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:scroll('t3')"><i></i>空间应用</a>
+                <ul>
+                    <li><a href="javascript:scroll('9')">国际最小高能绿色推力器在轨验证成功</a></li>
+                    <li><a href="javascript:scroll('10')">除了导航，“北斗”还能干什么</a></li>
+                    <li><a href="javascript:scroll('11')">25年持续蓄力，北斗向全球组网发起全面冲刺</a></li>
+                    <li><a href="javascript:scroll('12')">未来太空“计程车”——可重复使用的航天飞船</a></li>
+                    <li><a href="javascript:scroll('13')">中科院微重力技术实验卫星成功发射 将验证系列关键技术</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:scroll('t4')"><i></i>中国航天人物</a>
+                <ul>
+                    <li><a href="javascript:scroll('14')">钱学森</a></li>
+                    <li><a href="javascript:scroll('15')">梁守槃</a></li>
+                    <li><a href="javascript:scroll('16')">黄纬禄</a></li>
+                    <li><a href="javascript:scroll('17')">孙家栋</a></li>
+                </ul>
+            </li>
+           
+
+            <li>
+                <a href="javascript:scroll('t5')"><i></i>中国航天“三大精神”</a>
+                <ul>
+                    <li><a href="javascript:scroll('18')">航天传统精神</a></li>
+                    <li><a href="javascript:scroll('19')">“两弹一星”精神</a></li>
+                    <li><a href="javascript:scroll('20')">载人航天精神</a></li>
+                </ul>
+            </li>>
+            <li>
+                <a href="javascript:scroll('t6')"><i></i>中国航天日</a>
+            </li>
+            <li class="search">
+                <form action="http://search." method="get" target="_blank">
+                    <input type="text" name="keyword" class="search" placeholder="人民网搜索" />
+                </form>
+
+            </li>
+        </ul>
+    </div>
+
+    <!-- 轮播动画 -->
+    <div id="main">
+        <div id="hero-slides">
+            <div id="slides-cont">
+                <div class="button" id="next"></div>
+                <div class="button" id="prev"></div>
+                <div id="slides">
+                    <!-- 图1 -->
+                    <div class="slide" style="background-image: url(img/轮播21.jpg);">
+                        <div class="number">1956年——至今</div>
+                        <div class="body">
+                            <div class="headline">中国航天产品</div><br>
+                            <a href="javascript:scroll('t1')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图2 -->
+                    <div class="slide" style="background-image: url(img/title22.jpg);">
+                        <div class="number">1956年至2022年</div>
+                        <div class="body">
+                            <div class="headline">中国航天成就未来</div><br>
+                            <a href="javascript:scroll('t2')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图3 -->
+                    <div class="slide" style="background-image: url(img/轮播23.jpg);">
+                        <div class="number">1956年2月至2022年</div>
+                        <div class="body">
+                            <div class="headline">中国空间科学</div><br>
+                            <a href="javascript:scroll('t3')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图4 -->
+                    <div class="slide" style="background-image: url(img/轮播24.jpg);">
+                        <div class="number">20世纪——21世纪</div>
+                        <div class="body">
+                            <div class="headline">中国航天人物</div><br>
+                            <a href="javascript:scroll('t4')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图5 -->
+                    <div class="slide" style="background-image: url(img/轮播25.jpg);">
+                        <div class="number">20世纪——21世纪</div>
+                        <div class="body">
+                            <div class="headline">中国航天“三大精神”</div><br>
+                            <a href="javascript:scroll('t5')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图6 -->
+                    <div class="slide" style="background-image: url(img/轮播26.jpg);">
+                        <div class="number">2016年3月8日</div>
+                        <div class="body">
+                            <div class="headline">中国航天日</div><br>
+                            <a href="javascript:scroll('t6')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图7 -->
+                    <div class="slide" style="background-image: url(img/title27.jpg);">
+                        <div class="number">2006年2月</div>
+                        <div class="body">
+                            <div class="headline">探月与深空探测</div><br>
+                            <a href="javascript:scroll('t6')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图8 -->
+                    <div class="slide" style="background-image: url(img/轮播28.png);">
+                        <div class="number">2006年-2020年</div>
+                        <div class="body">
+                            <div class="headline">高分辨率对地观测系统</div><br>
+                            <a href="javascript:scroll('t8')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图9 -->
+                    <div class="slide" style="background-image: url(img/轮播29.jpg);">
+                        <div class="number">2000年年底——2020年</div>
+                        <div class="body">
+                            <div class="headline">北斗导航系统</div><br>
+                            <a href="javascript:scroll('t9')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图10 -->
+                    <div class="slide" style="background-image: url(img/轮播210.jpg);">
+                        <div class="number">1992年9月21日</div>
+                        <div class="body">
+                            <div class="headline">中国载人航天工程</div><br>
+                            <a href="javascript:scroll('t10')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图11 -->
+                    <div class="slide" style="background-image: url(img/轮播211.jpg);">
+                        <div class="number">1911年12月11日-2009年10月31日</div>
+                        <div class="body">
+                            <div class="headline">钱学森</div><br>
+                            <a href="javascript:scroll('t11')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图12 -->
+                    <div class="slide" style="background-image: url(img/轮播212.webp);">
+                        <div class="number">1916年12月18日～2011年11月23日</div>
+                        <div class="body">
+                            <div class="headline">黄纬禄</div><br>
+                            <a href="javascript:scroll('t12')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 图13 -->
+                    <div class="slide" style="background-image: url(img/轮播213.webp);">
+                        <div class="number">1929年4月8日——至今</div>
+                        <div class="body">
+                            <div class="headline">孙家栋</div><br>
+                            <a href="javascript:scroll('t13')">
+                                <div class="link">前往了解</div>
+                            </a>
+                        </div>
+                    </div>
+                <div id="next-catch"></div>
+                <div id="prev-catch"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 时间表 -->
+    <div class="about2" style="padding-bottom: 100px;">
+        <div class="wrapper">
+            <div class="tit" id="t1">
+                <h6 class="f12">1970年21<br>世纪</h6>
+                <h5 class="f24">航空产品</h5>   
+            </div>
+            <ul class="clearfix-time">
+                <li id="1">
+                    <a href="http://www.cnsa.gov.cn/n6758824/n6759008/n6759011/index.html">
+                        <h4 class="f30">1971年<br>3月3日至21世纪</h4>
+                    </a>
+                    <span class="span">中国航天火箭</span>
+                    <p class="14">标志着我国国用商用完全自主发展</p>
+                </li>
+                <li id="2">
+                    <a href="http://www.cnsa.gov.cn/n6758824/n6759008/n6759012/index.html">
+                        <h4 class="f30">1970年<br>4月24日至21世纪</h4>
+                    </a>
+                    <span class="span">中国航天卫星</span>
+                    <p class="14">中国是继苏、美、法、日之后，世界上第五个用自制火箭发射国产卫星的国家。</p>
+                </li>
+                <li id="3">
+                    <a href="http://www.cnsa.gov.cn/n6758824/n6759008/n6759013/index.html">
+                        <h4 class="f30">2003年<br>10月15日至21世纪</h4>
+                    </a>
+                    <span class="span">中国航空航天器</span>
+                    <p class="14">对于现代科学技术的各个领域提出了新的发展要求，从而可促进和推动整个科学技术的发展。</p>
+                </li>
+                <li id="4">
+                    <a href="http://www.cnsa.gov.cn/n6758824/n6759008/n6759014/index.html">
+                        <h4 class="f30">1999年1月<br>20日至21世纪</h4>
+                    </a>
+                    <span class="span">中国飞船冲云霄</span>
+                    <p class="14">载人航天工程，对于一个国家政治、经济、科技和人才培养等社会发展诸多方面，有着重大的现实意义和深远的影响</p>
+                </li>
+            </ul>
+            <div class="future">航空产品</div>
+            <div class="tit" id="t2">
+                <h6 class="f12">1970年4月24日至 <br> 21世纪</h6>
+                <h5 class="f24">成就未来</h5>
+            </div>
+            <ul class="clearfix-time">
+                <li id="5">
+                    <a href="http://clep.cnsa.gov.cn/index.html">
+                        <h4 class="f30">
+                            2006年2月<br>2020年
+                        </h4>
+                    </a>
+                    <span class="span">探月与深空探测</span>
+                    <p class="14">证明中国人有能力发展空间科学、抵达更远太空，也能显示我国的航天科技能力，书写中国人对深空探测的自主认识。</p>
+                </li>
+                <li id="6">
+                    <a
+                        href="http://www.cheos.org.cn/">
+                        <h4 class="f30">
+                            2010年<br> 2020年
+                        </h4>
+                    </a>
+                    <span class="span">高分辨率对地观测系统</span>
+                    <p class="14">满足国家经济建设和社会发展需求，对于促进中国空间基础设施建设，培育卫星应用企业集群和产业链，推动卫星应用和战略性新兴产业发展具有重大意义。
+                    </p>
+                </li>
+                <li id="7">
+                    <a
+                        href="http://www.xinhuanet.com//politics/2017-10/18/c_1121820849.htm?baike">
+                        <h4 class="f30">
+                            2017年<br> 510月18日
+                        </h4>
+                    </a>
+                    <span class="span">习近平同志在十九大报告中指出，坚决打赢脱贫攻坚战</span>
+                    <p class="14">确保到二〇二〇年我国现行标准下农村贫困人口实现脱贫，贫困县全部摘帽，解决区域性整体贫困，做到脱真贫、真脱贫</p>
+                </li>
+                <li id="8">
+                    <a href="http://www.gov.cn/xinwen/2019-03/05/content_5370671.htm?_zbs_baidu_bk">
+                        <h4 class="f30">
+                            2010年<br />9月25日
+                        </h4>
+                    </a>
+                    <span class="span">中国载人航天工程</span>
+                    <p class="14">代表中国政府与世界其他国家（地区）航天机构和组织开展载人航天国际合作与交流。</p>
+                </li>
+                <li id="9">
+                    <a href="http://www.xinhuanet.com/politics/2020lh/2020-05/22/c_1126018545.htm?baike">
+                        <h4 class="f30">
+                            2000年<br>2020年
+                        </h4>
+                    </a>
+                    <span class="span">北斗导航系统</span>
+                    <p class="14">满足国家安全与经济社会发展需求，为全球用户提供连续、稳定、可靠的服务；发展北斗产业，服务经济社会发展和民生改善；深化国际合作，共享卫星导航发展成果，提高全球卫星导航系统的综合应用效益
+                    </p>
+                </li>
+            </ul>
+            <div class="future">成就未来</div>
+        </div>
+    </div>
+    <!-- 四个字 -->
+    <div class="laoJi" id="t5">
+        <h1>中国航天“三大精神”</h1>
+        <div class="liMian" >
+            <h2 class="toBiao2" id="18">航天传统精神</h2>
+            <p class="nRong">一1956年10月8日，航天科技集团公司的前身——国防部第五研究院正式成立。根据聂荣臻副总理的提议，经毛泽东主席、周恩来总理批准，确定国防部五院的建院方针是“自力更生为主，力争外援和利用资本主义国家已有的科学成果”。“自力更生”精神孕育了我国最初的航天精神。1986年底，当时的航天工业部党组对航天精神进行了提炼和归纳，提出了“自力更生、大力协同、尊重科学、严谨务实、献身事业、勇于攀登”的航天传统精神。以后根据聂荣臻副总理倡导的“自力更生、艰苦奋斗、大力协同、无私奉献”的精神，结合航天科技工业的具体特点，对航天传统精神作了新的概括和提炼，表述为“自力更生、艰苦奋斗、大力协同、无私奉献、严谨务实、勇于攀登”。 </p>
+        </div>
+        <div class="liMian" id="19">
+            <h2 class="toBiao2">“两弹一星”精神</h2>
+            <p class="nRong">二两弹”，一个是核弹，核弹包括原子弹和氢弹，还有一个是导弹。“一星”就是人造卫星。1999年9月18日，江泽民同志在表彰为研制“两弹一星”作出突出贡献的科技专家大会上发表讲话，将“两弹一星精神”概括为“热爱祖国、无私奉献，自力更生、艰苦奋斗，大力协同、勇于登攀”二十四个字。</p>
+        </div>
+        <div class="liMian" id="20">
+            <h2 class="toBiao2">载人航天精神</h2>
+            <p class="nRong">三载人航天精神是2005年10月17日，我国自主研制的神舟六号载人飞船顺利返回。喜讯传来，举国欢腾。中共中央、国务院、中央军委对神舟六号载人航天飞行获得圆满成功致电热烈祝贺，全世界中华儿女无不为之感到骄傲和自豪。伟大的事业孕育伟大的精神，伟大的精神推动伟大的事业。载人航天工程是当今世界高新技术发展水平的集中体现，是衡量一个国家综合国力的重要标志。</p>
+        </div>
+    </div>
+    <div class="laoJi">
+        <h1>中国航天日</h1>
+        
+        <div class="liMian" id="t6">
+            <h2 class="toBiao2">由来</h2>
+            <p class="nRong">中国航天日（Space Day of China  ），是为了纪念中国航天事业成就，发扬中国航天精神而计划设立的一个纪念日。设立“中国航天日”，就是要铭记历史、传承精神，激发全民尤其是青少年崇尚科学、探索未知、敢于创新的热情，为实现中华民族伟大复兴的中国梦凝聚强大力量。 
+                2016年3月8日，国务院批复同意将每年4月24日设立为“中国航天日”。  首个中国航天日将以“中国梦，航天梦”为主题，国防科工局已会同有关部门筹划部署“开放日”“科普周”等系列宣传和科普活动。设立“中国航天日”，旨在宣传中国和平利用外层空间的一贯宗旨，大力弘扬航天精神，科学普及航天知识，激发全民族探索创新热情，唱响“探索浩瀚宇宙、发展航天事业、建设航天强国”的主旋律，凝聚实现中国梦航天梦的强大力量 </p>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <footer class="act">
+        <svg viewBox="0 0 120 28">
+         <defs> 
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="
+                   1 0 0 0 0  
+                   0 1 0 0 0  
+                   0 0 1 0 0  
+                   0 0 0 13 -9" result="goo" />
+              <xfeBlend in="SourceGraphic" in2="goo" />
+              </filter>
+             <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+          </defs> 
+        
+           <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+           <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+         
+         
+          <g class="gooeff" filter="url(#goo)">
+          <circle class="drop drop1" cx="20" cy="2" r="8.8"  />
+          <circle class="drop drop2" cx="25" cy="2.5" r="7.5"  />
+          <circle class="drop drop3" cx="16" cy="2.8" r="9.2"  />
+          <circle class="drop drop4" cx="18" cy="2" r="8.8"  />
+          <circle class="drop drop5" cx="22" cy="2.5" r="7.5"  />
+          <circle class="drop drop6" cx="26" cy="2.8" r="9.2"  />
+          <circle class="drop drop1" cx="5" cy="4.4" r="8.8"  />
+          <circle class="drop drop2" cx="5" cy="4.1" r="7.5"  />
+          <circle class="drop drop3" cx="8" cy="3.8" r="9.2"  />
+          <circle class="drop drop4" cx="3" cy="4.4" r="8.8"  />
+          <circle class="drop drop5" cx="7" cy="4.1" r="7.5"  />
+          <circle class="drop drop6" cx="10" cy="4.3" r="9.2"  />
+          
+          <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"  />
+          <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"  />
+          <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"  />
+            <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"  />
+          <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"  />
+          <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"  />
+          <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+         </g>  
+            <!-- g mask="url(#xxx)">
+            <path   id="wave1"  class="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </g>
+          </g -->
+        
+        </svg>
+        
+        </footer>
+    <!-- 樱花 -->
+    <div style="width: 100%;height: 100%; display: none;">花瓣飘落</div>
+    <script src="./js/snowfall.jquery.js"></script>
+    <script type="text/javascript">
+        $(document).snowfall('clear');
+        $(document).snowfall({
+            image:"https://pic.kuaizhan.com/g3/c3/9b/3f72-60cf-4d91-8500-4f193c67c59205",
+            flakeount:5,
+            minSize:15,
+            maxSize:25,
+        })
+    </script>
+    <script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+
+    <!-- 小火箭-->
+    <div class="actGotop"><a href="javascript:;" title="飞回顶部">
+    </a></div>
+<script>
+    var height = document.documentElement.clientHeight;
+    var width = document.documentElement.clientWidth;
+    $(function () {
+        //在页面超出1000px的时候（高），让小火箭显示，小于1000px 隐藏
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 950) {
+                $(".actGotop").stop().fadeIn(500);
+                $(".act").stop().fadeIn();
+            } else {
+                $(".actGotop").stop().fadeOut(500);
+                $(".act").stop().fadeOut();
+            }
+        })
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= height) {
+                $(".act").stop().fadeIn();
+            } else {
+                $(".act").stop().fadeOut();
+            }
+        })
+    });
+    //在外部注册
+    $(".actGotop").click(function () {
+        $("html,body").stop().animate({
+            scrollTop: 0
+        }, 1000)
+    })
+</script>
+<script type="text/javascript">
+    function scroll(id) {
+        console.log(id);
+        $("html,body").animate({
+            scrollTop: $("#" + id).offset().top
+        }, 1000);
+    }
+</script>
+
+<!-- 轮播 -->
+<script>
+    let hero = document.getElementById('hero-slides');
+    let menu = document.getElementById('menu');
+    let slides = document.getElementById('slides');
+    console.log(slides);
+    let next = ['next', 'next-catch'].map(n => document.getElementById(n));
+    let prev = ['prev', 'prev-catch'].map(n => document.getElementById(n));
+
+    let slidesChildren = slides.children;
+    let slidesCount = slides.children.length;
+    let currentlyDemoing = false;
+    let currentPage = 0;
+    let slidesPerPage = () => window.innerWidth > 1700 ? 4 : window.innerWidth > 1200 ? 3 : 2;
+    let maxPageCount = () => slidesCount / slidesPerPage() - 1;
+
+    function goToPage(pageNumber = 0) {
+        currentPage = Math.min(maxPageCount(), Math.max(0, pageNumber));
+        console.log(currentPage)
+        hero.style.setProperty('--page', currentPage)
+    }
+    function sleep(time) {
+        return new Promise(res => setTimeout(res, time))
+    }
+    function hoverSlide(index) {
+        index in slidesChildren && slidesChildren[index].classList.add('hover')
+    }
+    function unhoverSlide(index) {
+        index in slidesChildren && slidesChildren[index].classList.add('hover')
+    }
+    async function demo() {
+        if (currentlyDemoing) {
+            return;
+        }
+        currentlyDemoing = true;
+        if (currentPage !== 0) {
+            goToPage(0);
+            await sleep(800);
+        }
+        let slides = slidesPerPage();
+        let pageSeq_ = {
+            2: [1, 2, 1],
+            3: [1, 2, 1 / 3],
+            4: [1, 1, 0],
+        }
+        let pageSeq = pageSeq_[slides] || pageSeq_[4];
+        let slideSeq_ = {
+            2: [2, 4, 3],
+            3: [3, 6, 2],
+            4: [3, 6, 2]
+        }
+        let slideSeq = slideSeq_[slides] || slideSeq_[2];
+        await sleep(300);
+        goToPage(pageSeq[0]);
+        await sleep(500);
+        hoverSlide(slideSeq[0]);
+        await sleep(1200);
+        goToPage(pageSeq[1]);
+        unhoverSlide(slideSeq[0]);
+
+        await sleep(500);
+        hoverSlide(slideSeq[1]);
+        await sleep(1200);
+        goToPage(pageSeq[2]);
+        unhoverSlide(slideSeq[1]);
+        await sleep(300);
+        hoverSlide(slideSeq[2]);
+        await sleep(1600);
+        goToPage(0);
+        unhoverSlide(slideSeq[2]);
+        currentlyDemoing = false;
+    }
+    next.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage + 1)));
+    prev.forEach(n => n.addEventListener('click', () => !currentlyDemoing && goToPage(currentPage - 1)));
+    sleep(100).then(demo);
+    console.log(goToPage);
+</script>
+</html>

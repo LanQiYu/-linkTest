@@ -1,0 +1,134 @@
+.img{
+    width: 20px;
+    height: 20px;
+    opacity: 1;
+    position: absolute;
+    transition: 2s;
+    -webkit-user-select: nome;
+    -moz-user-select: nome;
+}
+.left{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+}
+.right{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    right: 0;
+}
+.under{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transform: rotate(45deg);
+}
+.text{
+    background-image: -webkit-linear-gradient(left,blue,#FF0800 10%,#ff2600 20%,#f0f 30%,#f00 40%,#0ff 50%,#ccccFF 60%,#c0c 70%,#c0f 80%,#6ff 90%,blue 100%);
+    -webkit-text-fill-color: transparent;
+    /* 将字体设置为透明色*/
+    -webkit-background-clip: text;
+    /* 裁剪背景，使文字作为裁剪区域向外裁剪*/
+    -webkit-background-size:200% 100%;
+    -webkit-animation: masked-animation 4s linear infinite;
+    width: 50px;
+    font-size: 25px;
+    line-height: 1;
+    position: absolute;
+    top: -1em;
+    left: -15px;
+    text-align: center;
+    -webkit-user-select: nome;
+    -moz-user-select: nome;
+}
+/* 音乐盒 */
+#audio1{
+    display: none;
+}
+#loading{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 50px;
+    background: url(../img/航空航天-航天飞机shuttle.png) no-repeat;
+    background-size: cover;
+    border-width: 4px;
+    width: 63px;
+    height: 63px;
+    border-style: solid;
+    border-color: #ccc #eee rgb(255, 63, 63) rgb(0, 0, 240);
+    border-radius: 50%;
+    -webkit-animation: "loading" 3s infinite linear;
+    z-index: 999999999;
+}
+#loading:hover{
+    cursor: url(../img/mouse.png),auto;
+    box-shadow: 0 1px 3px rgba( 0, 0, 0, 0.24),0 5px 50px 0 rgba(0,0,0,0.19);
+}
+@-webkit-keyframes "loading"{
+    0%{
+       -webkit-transform: rotate(0deg);  
+    }
+    100%{
+        -webkit-transform: rotate(360deg);  
+    }
+}
+.boxs {
+    position: fixed;
+    margin-top: 110px;
+    margin-left: 57px;
+    width: 60px;
+    height: 30px;
+    transform: rotate(180deg);
+}
+.boxs span {
+    position: fixed;
+    background: lightblue;
+    width: 10px;
+}
+#s1 {
+    height: 25px;
+    left: 0px;
+    animation: run 0.8s linear 0s infinite alternate;
+}
+#s2 {
+    height: 25px;
+    left: 15px;
+    animation: run 0.9s linear 0s infinite alternate;
+}
+#s3 {
+    height: 25px;
+    left: 30px;
+    animation: run 1s linear 0s infinite alternate;
+}
+#s4 {
+    height: 25px;
+    left: 45px;
+    animation: run 0.7s linear 0s infinite alternate;
+}
+#s5 {
+    height: 25px;
+    left: 60px;
+    animation: run 0.8s linear 0s infinite alternate;
+}
+@keyframes run{
+    10%{
+        height: 20%;
+    }
+    20%{
+        height: 40%;
+    }
+    40%{
+        height: 60%;
+    }
+    70%{
+        height: 80%;
+    }
+    100%{
+        height: 100%;
+    }
+}

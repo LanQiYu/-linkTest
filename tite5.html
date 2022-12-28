@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java高阶</title>
+    <link rel="stylesheet" href="./css/beiJing.css">
+    <link rel="stylesheet" href="./css/navigationBar.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/hover.js"></script>
+</head>
+<body>
+    <!-- 背景 -->
+    <canvas class="cavs" width="1575" height="2337"></canvas>
+    <!-- 导航栏 -->
+    <div class="head">
+        <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./titlle1.html" >Javascript程序设计</a></li>
+            <li><a href="./tite2.html">Ae影视制作</a></li>
+            <li><a href="./tite3.html">3DMAX设计</a></li>
+            <li><a class="active" href="./tite4.html">酷家乐</a></li>
+            <li><a class="active" href="#" style="background-color: rgb(104, 100, 100); border-radius: 4px;">Java高阶</a></li>
+            <input type="text" placeholder="请输入">
+      </ul>
+    </div>
+    <!-- 图片展示 -->
+    <div class="mainPart">
+        <!-- 图片1 -->
+        <div class="zhanShi" id="a">            
+		    <img src="./Java/尚志1.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption bottom-to-top" id="b">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>尚志</p>
+		    </span>
+		</div>
+        <!-- 图片2 -->
+        <div class="zhanShi" id="a2">
+		    <img src="./Java/尚志2.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption top-to-bottom" id="b2">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>尚志</p>
+		    </span>
+		</div>
+         <!-- 图片3 -->
+         <div class="zhanShi" id="a3">
+		    <img src="./Java/尚志3.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption left-to-right" id="b3">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>尚志</p>
+		    </span>
+		</div>
+        <!-- 图片4 -->
+        <div class="zhanShi" id="a4">            
+		    <img src="./Java/肖蕊1.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption right-to-left" id="b4">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>肖蕊</p>
+		    </span>
+		</div>
+        <!-- 图片5 -->
+        <div class="zhanShi" id="a5">
+		    <img src="./Java/肖蕊2.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption rotate-in" id="b5">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>肖蕊</p>
+		    </span>
+		</div>
+         <!-- 图片6 -->
+         <div class="zhanShi" id="a6">
+		    <img src="./Java/肖蕊3.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption rotate-out" id="b6">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>肖蕊</p>
+		    </span>
+		</div>
+        <!-- 图片7 -->
+        <div class="zhanShi" id="a7">            
+		    <img src="./Java/裴祖帅1.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption open-up" id="b7">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>裴祖帅</p>
+		    </span>
+		</div>
+        <!-- 图片8 -->
+        <div class="zhanShi" id="a8">
+		    <img src="./Java/裴祖帅2.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption open-down" id="b8">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>裴祖帅</p>
+		    </span>
+		</div>
+         <!-- 图片9 -->
+         <div class="zhanShi" id="a9">
+		    <img src="./Java/裴祖帅3.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption open-left" id="b9">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>裴祖帅</p>
+		    </span>
+		</div>
+        <!-- 图片10 -->
+        <div class="zhanShi" id="a10">            
+		    <img src="./Java/许湘1.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption open-right" id="b10">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>许湘</p>
+		    </span>
+		</div>
+        <!-- 图片11 -->
+        <div class="zhanShi" id="a11">
+		    <img src="./Java/许湘2.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption come-left" id="b11">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>许湘</p>
+		    </span>
+		</div>
+         <!-- 图片12 -->
+         <div class="zhanShi" id="a12">
+		    <img src="./Java/许湘3.jpg" class="pic-image" alt="Pic"/>
+		    <span class="pic-caption come-right" id="b12">
+		        <h1 class="pic-title">计应十班</h1>
+		        <p>许湘</p>
+		    </span>
+		</div>
+    </div>
+</body>
+</html>
+<!-- 背景 -->
+<script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+<script src="js/ban.js"></script>

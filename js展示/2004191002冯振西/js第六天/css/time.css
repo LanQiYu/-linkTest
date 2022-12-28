@@ -1,0 +1,198 @@
+ol,
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.f12 {
+    font-size: 12px;
+}
+
+.f24 {
+    font-size: 24px;
+}
+
+.f30 {
+    font-size: 30px;
+}
+
+.f14 {
+    font-size: 14px;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.clearfix-time {
+    display: block;
+    zoom: 1;
+    margin: 70px 0;
+}
+
+.clearfix-time:after {
+    content: '/20';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+.about2 {
+    padding-bottom: 80px;
+}
+
+.about2 .tit {
+    text-align: center;
+}
+
+.about2 ul {
+    background: url(../img/sy51.png) repeat-y center;
+}
+
+.about2 .tit h6 {
+    color: #666666;
+}
+
+.about2 .tit h5 {
+    color: #333;
+    margin: 15px 0 45px;
+}
+
+.about2 li::before {
+    background: url(../img/sy50.png) no-repeat center center;
+    left: -68px;
+    top: 12px;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+}
+
+.about2 li {
+    float: right;
+    width: 45%;
+    text-align: left;
+    position: relative;
+    margin-top: 100px;
+}
+
+
+
+.about2 li h4 {
+    position: relative;
+    display: block;
+    font-family: lato;
+    text-transform: uppercase;
+    padding: 4px 0;
+    transition: .5s;
+}
+
+.about2 li h4 {
+    color: #333;
+    transition: all 1s;
+}
+
+.about2 li h4::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    top: 100%;
+    left: 0;
+    background: #3498db;
+    transition: transform .5s;
+    transform: scale(0);
+    transform-origin: right;
+}
+
+.about2 li h4:hover {
+    color: #f8f8f8;
+    transition: all 1s;
+    transform: translateY(-15px);
+}
+
+.about2 li h4:hover {
+    color: #95a5a6;
+}
+
+.about2 li h4:hover::after {
+    transform: scale(1);
+    transform-origin: left;
+}
+
+.about2 li:nth-child(1) {
+    margin-top: 0;
+}
+
+.about2 li:nth-child(2n)::before {
+    background: url(../img/) no-repeat center center;
+    right: -69px;
+    top: 12px;
+    let: auto;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 17px;
+    height: 17px;
+}
+
+.about2 li:nth-child(2n) {
+    float: left;
+    text-align: right;
+    margin-top: 90px;
+}
+
+.about2 li p {
+    color: #666;
+    margin-top: 10px;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.span {
+    color: red;
+    font-size: 20px;
+}
+
+.future {
+    text-align: center;
+    color: #999999;
+    font-size: 12px;
+    margin-top: 17px;
+}
+.about2 {
+    padding-bottom: 300px;
+}
+/* 四个字 */
+.laoJi {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+    padding-bottom: 170px;
+    position: relative;
+}
+.laoJi h1 {
+    text-align: center;
+    color: #ff493c;
+}
+.laoJi h2 {
+    padding-left: 2px;
+    color: #ff493c;
+}
+.laoJi .nRong {
+    color: #000;
+    font-weight: 540;
+}
